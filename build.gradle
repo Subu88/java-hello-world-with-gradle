@@ -32,6 +32,10 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'application'
 
+plugins {
+  id "org.sonarqube" version "4.0.0.2929"
+}
+
 mainClassName = 'hello.HelloWorld'
 
 // tag::repositories[]
